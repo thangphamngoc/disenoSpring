@@ -6,6 +6,25 @@ package com.diseno.demo.common;
  * @author Phạm Ngọc Thắng
  */
 public interface AppConstant {
+
+    boolean APP_TRUE = true;
+    boolean APP_FALSE = false;
+    String YES = "yes";
+    String NO = "no";
+    int PAGE_NUMBER = 0;
+    int MAX_PAGE_ITEM = 20;
+    long NUMBER_ZERO = 0L;
+    int ZERO = 0;
+    int ONE = 1;
+
+
+
+
+
+
+
+
+
     String SUCCESS_SAVE = "Lưu thành công";
     String SUCCESS_CREATE = "Tạo thành công";
     String SUCCESS_UPDATE = "Cập nhật thành công";

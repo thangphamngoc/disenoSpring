@@ -37,12 +37,20 @@ import java.util.concurrent.atomic.AtomicInteger;
  *
  * @author Phạm Ngọc Thắng
  */
+
+/**
+ * 200	OK	/  thao tác thành công
+ * 400	lỗi dữ liệu truyền vào /   do bên frontend
+ * 412	Lỗi dữ liệu không có trong database /	do bên frontend
+ * 501	code có lỗi có thể kiểm soát được / do người code backend
+ * 500	tất cả các trường hợp còn lại, không kiểm soát được /	do người code backend
+ */
 @ControllerAdvice
 public class GlobalExceptionHandling {
 
     Logger logger = LoggerFactory.getLogger(GlobalExceptionHandling.class);
 
-    @Autowired
+
     private ListMapper listMapper;
 
     /**
