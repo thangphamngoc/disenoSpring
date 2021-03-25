@@ -19,4 +19,6 @@ public interface ErrorsConstant {
     String NOT_FOUND_DATABASE_FIND = "Không tìm thấy dữ liệu trong hệ thống";
     String NOT_FOUND_DATABASE_DELETE = "Không tồn tại dữ liệu trong hệ thống";
     String ERROR_FIREBASE = "Lỗi gửi thông báo qua ứng dụng";
+
+    String ERROR_NO_USER="Không tồn tại tài khoản trong hệ thống.";
 }

@@ -93,8 +93,8 @@ public class NewDataResponse {
 
     @Getter
     private static class Data {
-        private String companyName = "One Group";
-        private String appName = "OneKids";
+        private String companyName = "thangpn group";
+        private String appName = "diseno";
         private LocalDate nowDate = LocalDate.now();
         private int status = statusValue.value();
         private Object data;
