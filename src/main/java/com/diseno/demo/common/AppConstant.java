@@ -18,7 +18,9 @@ public interface AppConstant {
     int ONE = 1;
 
 
-
+    int USERNAME_MIN_LENGHT = 6;
+    int USERNAME_EXTEND_MIN_LENGHT = 9;
+    int PASSWORD_MIN_LENGHT = 6;
 
 
 
